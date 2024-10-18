@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-export default function Carousel({ images,className }) {
+export default function Carausel({ images,className }) {
   const trackRef = useRef(null);
 
   useEffect(() => {
