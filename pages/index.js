@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 
 // import CourseCard from "./components/reuse/CourseCard";
 import {Courseimg,LogoList} from '@/Data'
-import Carousal from "./components/reuse/Carausal";
+import Carausal from "./components/reuse/Carausal";
 import WhyChooseUs from "./components/WhyChooseUs";
 
 const geistSans = localFont({
@@ -24,12 +24,12 @@ export default function Home() {
     <main>
     <Hero/>
     
-      <Carousal images={LogoList} className={"m-4 w-[100px] h-auto"} />
+      <Carausal images={LogoList} className={"m-4 w-[100px] h-auto"} />
     <div className="mt-10 mx-10 mb-9 max-sm:mx-1"  >
       <h1 className="text-4xl max-sm:text-3xl  font-semibold my-8" >Unlock Job Opportunities in Digital Marketing</h1>
       <div className="flex gap-6 mx-auto" >
 
-      <Carousal images={Courseimg} className="h-[210px] w-[375px] m-4 " />
+      <Carausal images={Courseimg} className="h-[210px] w-[375px] m-4 " />
 
       </div>
     </div>
@@ -38,7 +38,7 @@ export default function Home() {
       </h1>
       <div className="flex gap-6 mx-auto" >
 
-      <Carousal images={Courseimg} className="h-[319px] w-[568px] m-4 " />
+      <Carausal images={Courseimg} className="h-[319px] w-[568px] m-4 " />
 
       </div>
     </div>
