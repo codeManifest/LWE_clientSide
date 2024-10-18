@@ -1,5 +1,5 @@
 // components/FuturistsAcademy.jsx
-
+import Image from "next/image";
 const WhyChooseUs = () => {
     return (
         <div className="w-full px-4 py-10 bg-white">
@@ -14,8 +14,11 @@ const WhyChooseUs = () => {
             <div className="space-y-8">
               {/* Interactive LMS */}
               <div className="flex items-center text-center">
-                <img
-                  src="/path-to-your-icon1.png" // Replace with actual path
+                <Image
+                width={64}
+                height={64}
+                quality={80}
+                  src="" // Replace with actual path
                   alt="Interactive LMS"
                   className="w-16 h-16 mb-4"
                 />
@@ -29,8 +32,11 @@ const WhyChooseUs = () => {
               {/* One on One Interaction */}
               <div className="flex items-center text-center">
 
-                <img
-                  src="/path-to-your-icon2.png" // Replace with actual path
+                <Image
+                width={64}
+                height={64}
+                quality={80}
+                  src="" // Replace with actual path
                   alt="One on One Interaction"
                   className="w-16 h-16 mb-4"
                   />
@@ -42,8 +48,11 @@ const WhyChooseUs = () => {
     
               {/* Experienced Trainers */}
               <div className="flex  items-center text-center">
-                <img
-                  src="/path-to-your-icon3.png" // Replace with actual path
+                <Image
+                width={64}
+                height={64}
+                quality={80}
+                  src="" // Replace with actual path
                   alt="Experienced Trainers"
                   className="w-16 h-16 mb-4"
                 />
@@ -57,8 +66,11 @@ const WhyChooseUs = () => {
     
             {/* Middle column (spans 3 rows on larger screens) */}
             <div className="row-span-1 md:row-span-3 flex justify-center  items-center">
-              <img
-                src="/path-to-your-middle-image.png" // Replace with the path to your middle image
+              <Image
+              quality={80}
+              width={64}
+              height={64}
+                src="" // Replace with the path to your middle image
                 alt="Center Image"
                 className="w-full m-auto h-auto max-w-md" // Adjust as per image size
               />
@@ -68,8 +80,11 @@ const WhyChooseUs = () => {
             <div className="space-y-8">
               {/* Hands on Experience */}
               <div className="flex  items-center text-center">
-                <img
-                  src="/path-to-your-icon4.png" // Replace with actual path
+                <Image
+                quality={80}
+                width={64}
+                height={64}
+                  src="" // Replace with actual path
                   alt="Hands on Experience"
                   className="w-16 h-16 mb-4"
                 />
@@ -82,8 +97,11 @@ const WhyChooseUs = () => {
     
               {/* 24/7 Access and Support */}
               <div className="flex  items-center text-center">
-                <img
-                  src="/path-to-your-icon5.png" // Replace with actual path
+                <Image
+                quality={80}
+                width={64}
+                height={64}
+                  src="" // Replace with actual path
                   alt="24/7 Access and Support"
                   className="w-16 h-16 mb-4"
                 />
@@ -96,8 +114,11 @@ const WhyChooseUs = () => {
     
               {/* 100% Job Assistance */}
               <div className="flex  items-center text-center">
-                <img
-                  src="/path-to-your-icon6.png" // Replace with actual path
+                <Image
+                quality={80}
+                width={64}
+                height={64}
+                  src="" // Replace with actual path
                   alt="100% Job Assistance"
                   className="w-16 h-16 mb-4"
                 />
